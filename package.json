@@ -1,8 +1,9 @@
 {
   "name": "pr-gui",
   "version": "0.0.0",
-  "license": "MIT",
-  "engines":{
+  "license": "MIT"
+  , "angular-cli":{}
+  , "engines":{
     "node": "6.x"
     ,"npm":"3.x"
   }
