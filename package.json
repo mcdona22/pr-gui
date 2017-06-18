@@ -4,7 +4,7 @@
   "license": "MIT",
   "engines":{
     "node": "6.x"
-    ,"npm":"2.x"
+    ,"npm":"3.x"
   }
   ,"scripts": {
     "ng": "ng",
