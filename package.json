@@ -2,7 +2,11 @@
   "name": "pr-gui",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
+  "engines":{
+    "node": "6.x"
+    ,"npm":"2.x"
+  }
+  ,"scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
