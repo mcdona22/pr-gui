@@ -1,17 +1,27 @@
 {
   "name": "pr-gui",
   "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
+  "license": "MIT"
+  , "angular-cli":{}
+  , "engines":{
+    "node": "6.x"
+    ,"npm":"3.x"
+  }
+  ,"scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+    , "postinstall" : "ng build --aot -prod"
+    , "start" : "node server.js"
+
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "1.1.0",
+    "@angular/compiler-cli": "^4.0.0",
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
@@ -26,8 +36,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.1.0",
-    "@angular/compiler-cli": "^4.0.0",
+
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.45",
     "@types/node": "~6.0.60",
