@@ -1,6 +1,6 @@
 import { DomAppPage } from './app.po';
 
-describe('dom-app App', () => {
+describe('pr-gui App', () => {
   let page: DomAppPage;
 
   beforeEach(() => {
