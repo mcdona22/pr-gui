@@ -16,7 +16,7 @@ const ROUTES = [
 ]
 
 @NgModule({
-  imports: [ CommonModule, RouterModule.forRoot(ROUTES) ]
+  imports: [ CommonModule, RouterModule.forRoot(ROUTES, { useHash: true}) ]
   , exports : [RouterModule]
   , declarations: []
 })
